@@ -10,7 +10,6 @@ const movies = [
 const moviesContainer = document.querySelector('.movies-container');
 const movieTitle = document.getElementById('movie-title');
 
-// Criar os cartões dos filmes
 movies.forEach(movie => {
     const movieCard = document.createElement('div');
     movieCard.classList.add('movie');
